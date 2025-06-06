@@ -45,6 +45,6 @@ async def main(file: UploadFile= File(...))-> Dict[str, Any]:
     return {"data":data}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="localhost", port=8000)
 
 
