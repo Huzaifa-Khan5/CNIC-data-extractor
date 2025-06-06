@@ -8,5 +8,5 @@ wheels/
 
 # Virtual environments
 .venv
-.environments
-customerCnic/
+.env
+customerCnic\customerCnic
